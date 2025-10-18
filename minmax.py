@@ -54,3 +54,18 @@ th=thirdlargest()
 arr=[2,32,343,434]
 reee=th.thired(arr)
 print(reee)
+
+# find the missing number in an array (and i am using set)
+class missingelement:
+    def miss(self,arru):
+        s=set(arru)
+        m=min(arru)
+        n=len(arru)+1
+        for i in range(m,m+n):
+            if i not in s:
+                return i
+
+m=missingelement()
+arru=[7,8,10]
+rer=m.miss(arru)
+print(rer)
