@@ -79,3 +79,7 @@ class travers():
             else:
                 return -1
 
+rept=travers()
+ar=[12,34,45,654]
+ans=rept.trav(ar,12)
+print(ans)
