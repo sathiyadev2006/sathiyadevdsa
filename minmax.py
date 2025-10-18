@@ -69,3 +69,13 @@ m=missingelement()
 arru=[7,8,10]
 rer=m.miss(arru)
 print(rer)
+
+#to element and travers the array
+class travers():
+    def trav(self,ar,x):
+        for i in range(len(ar)):
+            if ar[i]==x:
+                return ar.index(x)
+            else:
+                return -1
+
